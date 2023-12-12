@@ -6,19 +6,18 @@ body {
 
 #home {
   background-color:  #3b005e; /*#7600bc;*/
-  padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
   margin-top:-1cm;
-  padding-top: 2cm;
-  padding-bottom: 2cm;
+  padding-top: 1.5cm;
+  padding-bottom: 2.5cm;
   height: 5mm;
  }
 
 .topmenu {
   color: lightgray;
-  margin: 10px;
-  padding: 20px;
+  margin: 5px;
+  padding: 5px;
   font-size: 20px;
   text-decoration:none;
 }
@@ -85,26 +84,41 @@ h2 {
 /* Used in the About Me sections */
 
 .container {
+  padding: 1px;
   display: flex;
+  border:1px solid gray;
 }
 
 /* About Me */
 
 .about-me {
-  display: flex;
+  padding: 1px;
   align-items: center;
+  border:1px solid gray;
+}
+
+.bio {
+  padding: 1px;
+  float: right;
+  border:1px solid gray;
 }
 
 #about-me h1 {
   font-size: 65px;
-  margin-top: 90px;
+  /*margin-top: 90px;*/
   color: #3b005e; /*#7600bc;*/
+  margin: 10px;
+  padding: 10px;
+  border:1px solid gray;
 }
 
 #about-me p {
   font-size: 25px;
+  /*margin-top: -1cm;*/
   color: rgb(128, 128, 128);
-  margin-top: -1cm;
+  margin: 10px;
+  padding: 10px;
+  border:1px solid gray;
 }
 
 .profile_image {
@@ -112,6 +126,9 @@ h2 {
   height: fit-content;
   vertical-align: middle;
   margin: 10px;
+  padding: 10px;
+  float: left;
+  border:1px solid gray;
 }
 
 /* Skills */
@@ -204,7 +221,6 @@ h2 {
   font-style: italic;
   text-align: left;
   width: 21.875rem;
-  padding: 1rem;
   background-color: #fff;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
@@ -212,7 +228,7 @@ h2 {
   margin: 10px;
   border:1px solid gray;
   font-size: 18px;
-  height:150px
+  height:155px
 }
 
 .recommendation span {
